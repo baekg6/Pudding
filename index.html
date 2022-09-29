@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>말랑 푸딩, 딩딩</title>
+        <link rel="stylesheet" href="pudding.css" />
+    </head>
+    <body></body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>푸딩</title>
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+        <link rel="stylesheet" href="pudding.css" />
+    </head>
+    <body>
+        <div class="wrap">
+            <header class="header">
+                <h1 class="title">
+                    <img src="img/title.png" alt="Pudding" class="img-title" />
+                </h1>
+                <p class="txt-info">
+                    달콤한 카라멜 시럽이 뿌려진 푸딩, <strong>딩딩</strong>이에요!<br />
+                    딩딩이를 눌러 보세요 :)
+                </p>
+            </header>
+            <div class="pudding">
+                <div id="cherry" class="cherry">
+                    <div class="sterm"></div>
+                </div>
+                <div class="cream left"></div>
+                <div class="cream right"></div>
+
+                <div class="face" id="pudding-face">
+                    <div class="eye left blink-eye"></div>
+                    <div class="eye right blink-eye"></div>
+                    <div class="mouth"></div>
+                    <div class="cheek left"></div>
+                    <div class="cheek right"></div>
+                </div>
+            </div>
+            <div class="plate"></div>
+            <footer class="footer">
+                <small>Copyright 2022. BAEKG All rights reserved.</small>
+            </footer>
+        </div>
+
+        <script>
+            console.log("┌─────────────────┐\n| 푸딩이 세상을 구한다 |\n└─────────────────┘\n　　ᕱ ᕱ  ||\n　 ( ･ω･ ||\n　 /　 つΦ");
+
+            pudding = document.getElementById("pudding-face");
+            pudding.addEventListener(
+                "click",
+                function (e) {
+                    // console.log("button click");
+                    window.location.reload();
+                },
+                false
+            );
+        </script>
+    </body>
+</html>
