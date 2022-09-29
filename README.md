@@ -1,7 +1,7 @@
 # 안녕하세요! 딩딩이에요 :)
 > 작성자: 백경현(baekg6)  
 최종 업데이트: 2022. 09. 29.  
-https://baekg6.github.io/FE3-Pudding/
+https://baekg6.github.io/Pudding/
 
 <br>
 
